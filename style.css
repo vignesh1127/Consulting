@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top:20px
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: #8bb7a2;
+    border: none;
+    color: white;
+}
+
+.mailbox{
+    width: 320px;
+    height: 50px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.mailbox::placeholder{
+    position: relative;
+    left: 10px;
+}
+.btn-mail{
+    position: relative;
+    top: -40px;
+    left: 200px;
+}
+
+.section-1{
+    background-color: #636c79;
+    height: 530px;
+    color: white;
+}
+.nav-bar .list{
+    position: relative;
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+    right: -100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.section-1-1{
+    position: relative;
+    display: flex;
+}
+
+.logo{
+    width: 80px;
+}
+
+.img-1{
+    position: relative;
+    left: 160px;
+    top:50px;   
+}
+
+.images-1{
+    width: 350px;
+    height: 400px;
+}
+
+.head-1{
+    position: relative;
+    display: block;
+    left: 150px;
+    width: 400px;
+    top: 50px;
+}
+
+.head-1 .heading-1{
+    position: relative;
+    left: 150px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.head-1 .heading-2{
+    position: relative;
+    left: 150px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.subscribe{
+    position: relative;
+    top: 90px;
+    left: 150px;
+}
+
+.section-2{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+}
+
+.head-2{
+    position: relative;
+}
+
+.head-2 .heading-1{
+    text-align: center;
+    top: 25px;
+    left: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.facts{
+    position: relative;
+    display: flex;
+    top:70px;
+    width:1000px;
+    column-gap: 140px;
+    left: 250px;
+    text-align: center;
+}
+
+.fact h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.fact p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.sect-2{
+    position: relative;
+    top:100px;
+    width: 900px;
+    left: 170px;
+    height: 400px;
+}
+
+
+.section-3{
+    position: relative;
+    top: 0;
+    align-items: center;
+    margin: 0 auto;
+    left: 100px;
+}
+
+.head-3{
+    position: relative;
+    left: 350px;
+}
+
+.head-3 h2{
+    width: 400px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sec-3-1{
+    top:40px;
+    position: relative;
+    display: flex;
+    column-gap: 70px;
+}
+
+.sec-3-1 img{
+    position: relative;
+    width: 350px;
+    width:400px
+}
+
+.sec-3-1 .sec1{
+    top: 60px;
+    left: 60px;
+    position: relative;
+    display: block;
+    width: 500px;
+}
+
+.sec-3-1-1 h2{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.sec-3-1 .sec1 p{
+    position: relative;
+    top:30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    width: 350px;
+}
+
+.sec-3-2{
+    top:0px;
+    position: relative;
+}
+
+.sec-3-2 img{
+    top:-60px;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    left:100px;
+}
+
+.sec-3-2 .sec2{
+    top: 180px;
+    left: 600px;
+    position: relative;
+    width: 280px;
+}
+
+.sec-3-2 .sec2 h2{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    width: 300px;
+}
+
+.sec-3-2 p{
+    position: relative;
+    top:30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    width: 400px;
+}
+
+.sec-3-3{
+    position: relative;
+}
+
+.sec-3-3 img{
+    top: -150px;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    left: 600px;
+}
+
+.sec-3-3 .sec3{
+    top: 70px;
+    left: 100px;
+    position: relative;
+    width: 370px;
+}
+
+.sec-3-3 .sec2 h2{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.sec-3-3 p{
+    position: relative;
+    top:30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.sec-3-1-1 .btn-des{
+    position: relative; 
+    top:70px;
+}
+
+
+.section-4{
+    position: relative;
+    display: block;
+    top:-70px
+}
+
+.sect-4-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect-4-1 h2{
+    position: relative;
+    width: 250px;
+    left: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.sect-4-1 p{
+    position: relative;
+    width: 400px;
+    top: 20px;
+    right: 170px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.sect-4-2{
+    position: relative;
+    top:20px;
+    display: flex;
+    left: 160px;
+    column-gap: 100px;
+}
+
+.sect-4-2-1 img{
+    width: 250px;
+    height: 300px;
+}
+
+.sect-4-2-1 h2{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.sect-4-2-1 p{
+    position: relative;
+    width: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    top: 10px;
+}
+
+.seemover{
+    position: relative;
+    display: block;
+    top:70px;
+    left: 580px;
+}
+
+.footer{
+    top: 80px;
+    height: 300px;
+    position: relative;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.foot-1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+    margin: 0px 150px;
+    color: white;
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+
+.foot-1-1 img{
+    width: 100px;
+}
+
+.foot-1-2 img{
+    position: relative;
+    background:black ;
+    width: 220px;
+}
+
+
+.foot-2{
+    position: relative;
+    display: flex;
+    top: 80px;
+    left: 150px;
+    column-gap: 120px;
+}
+
+.footer-item-list{
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.footer-item-list span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
